@@ -53,3 +53,39 @@ Funcões
 function nome(){
     bloco [código]
 }
+
+---- CONDIÇÕES ----
+
+if (teste) {
+    o que vai acontecer se o teste for verdadeiro
+} else {
+    o que vai acontecer se o teste for falso
+}
+
+if (teste1) {
+    o que vai acontecer se o teste for verdadeiro
+} else if (teste2){
+    o que vai acontecer se o teste1 for falso e o teste2 for verdadeiro
+} else {
+    o que vai acontecer se o teste1 e teste2 forem falsos
+}
+
+---- REPETIÇÕES ----
+
+while (condição) {
+    o que vai acontecer se a condição for verdadeira
+}
+
+* Enquanto a condição for verdadeira, execute o código 
+
+do {
+    o que vai acontecer se a condição for verdadeira
+} while (condição)
+
+* Faça determinada coisa enquanto a condição for verdadeira
+
+for (inicialização; condição; incremento) {
+    o que vai acontecer se a condição for verdadeira 
+}
+
+* Faça a inicialização, se a condição for verdadeira execute o código, faça o incremento e repita até que a condição vire falsa
