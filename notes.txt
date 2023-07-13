@@ -1,0 +1,55 @@
+---- OPERADORES ----
+
+-Aritimeticos:
++ = Soma
+- = Subtração
+* = Multiplicação
+/ = Divisão Real
+% = Resto da Divisão Inteiro
+** = Potenciação
+
+-Atribuição:
+=  - Recebe
++=  = auto Atribuição
+    Exemplo: n = n + 4 || n += 4  (O mesmo se repete a todos os operadores aritimeticos)
+++ = Variavel mais 1
+-- = Variavel menos 1
+
+-Relacional:
+> - Maior
+< - Menor
+>= - Maior ou igual
+<= - Menor ou igual
+== - Igual
+!= - Diferente
+=== - Testa se algo é identico a outra coisa
+!== -  
+
+-Logicos:
+! - negação (não)
+&& - conjuncão (e)
+|| disjunção (ou)
+
+//Ordem de execução: 1º- não, 2º-e, 3º-ou
+
+-Ternário:
+* Existem 3 partes:
+teste lógico ? true : false
+
+*Se o teste for verdadeiro, a variavel recebera o que está escrito no lugar de 'true' 
+*Se o teste for falso, a variavel recebera o que está escrito no lugar de 'false' 
+
+DOM (Document Object Model)
+window 
+-> location
+-> document
+    -> html
+        ->head
+        ->body
+-> history
+
+Funcões
+
+function nome(){
+    bloco [código]
+}

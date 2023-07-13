@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <main>
+        <h1>Desafio</h1>
+        <label for="pais">Pais que nasceu:</label>
+        <input type="text" name="pais" id="pais">
+        <input type="button" value="Enviar" onclick="verificar()">
+        <section id="resul">
+
+        </section>
+    </main>
+
+    <script>
+        function verificar() {
+            var txtpais = document.querySelector('input#pais')
+            var r = document.querySelector('section#resul')
+            var pais = new String(txtpais)
+            r.innerText = `Vivendo em ${pais}`
+            if (pais == 'Brasil'){
+            r.innerText += 'Você é brasileiro!'
+            } else {
+            r.innerText +='Você é estrangeiro!'
+            }
+        }
+    </script>
+</body>
+</html>
