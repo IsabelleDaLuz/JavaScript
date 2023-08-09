@@ -14,6 +14,7 @@ function contar() {
         var p = Number(passo.value)
         if (p <= 0) {
             window.alert('Passo Invalido! Considerando Passo: 1')
+            p = 1
         }
     }
 
@@ -27,4 +28,24 @@ function contar() {
             }
     }
     res.innerHTML += `\u{1F3C1}`
+}
+
+function tabuada() {
+    var num = document.getElementById('txtn')
+    var tab = document.getElementById('tabuada');
+    if (num == 0) {
+        window.alert('[ERRO] Digite um número!')
+    } else {
+        var n = 5
+        var c = 1
+        tab.innerHTML = ''
+        while (c <= 10) {
+            var item = document.createElement('option')
+          //  var r = n * c
+            item.text = `${n} x ${c} = ${n*c}`
+            tab.appendChild(item)
+            c++
+        }
+    }
+    
 }

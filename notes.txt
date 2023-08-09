@@ -90,3 +90,5 @@ for (inicialização; condição; incremento) {
 
 * Faça a inicialização, se a condição for verdadeira execute o código, faça o incremento e repita até que a condição vire falsa
 
+
+---- ARRAYS ----
