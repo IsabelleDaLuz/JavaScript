@@ -92,3 +92,5 @@ for (inicialização; condição; incremento) {
 
 
 ---- ARRAYS ----
+vaga automovel = [carro, carro, carro]
+variavel -> array  | indice -> cada espacinho (cmc no 0) | elemento -> conteudo | 
